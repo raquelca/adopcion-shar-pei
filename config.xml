@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns  ="http://www.w3.org/ns/widgets"
+   xmlns:gap = "http://phonegap.com/ns/1.0"
+   id ="com.sharpeisadopcion.phonegap"
+   versionCode="10"
+   version ="1.0.0">
+<name>Cachorros en Adopcion</name>
+<description>
+	App para encontar shar peis en adopcion
+</description>
+<author email="raqcarb@hotmail.com" href="#">
+	Raquel Carbonell
+</author>
+//Plataforma en la que se compilará la app y las preferencias (tabmien se puede utilizar en namespace gap)
+
+<gap:platform name="android"/>
+<preference name="orientation" value="portrait"/>
+<preference name="fullscreen" value="false"/>
+<preference name="android-installLocation" value="auto"/>
+<preference name="SplashScreenDelay" value="10000"/>
+
+<content src="index.html"/>
+<access origin="*"/>
+<icon src=""/>
+<splash src=""/>
+
+<plugin name="cordova-plugin-contacts" spec="~2.3.1" />
+</widget>
